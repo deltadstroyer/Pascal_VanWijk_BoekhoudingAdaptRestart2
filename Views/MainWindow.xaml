@@ -28,7 +28,7 @@
                 <TabItem Name="Aankoopdagboek" Header="Aankoopdagboek">
                     <TabItem.Content>
                         <StackPanel Margin="10" Grid.Column="0">
-                            <views:AankoopDagBoekView DataContext="{Binding AankoopDagBoekVM}"/>
+                            <views:AankoopDagBoekView DataContext="{Binding AankoopDagboekVM}"/>
                         </StackPanel>
                     </TabItem.Content>
                 </TabItem>

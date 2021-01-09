@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <ListBox ItemsSource="{Binding VerKoopDagboek}" SelectedItem="{Binding SelectedVerkoopFactuur}" DisplayMemberPath="UniekNr"/>
-  
+        <DataGrid ItemsSource="{Binding VerkoopFacturen}" SelectedItem="SelectedVerkoopFactuur"/>
+
     </Grid>
 </UserControl>
